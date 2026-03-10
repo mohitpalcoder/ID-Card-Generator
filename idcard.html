@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id Card</title>
+    <link rel="stylesheet" href="idcard.css">
+</head>
+<body>
+<div class="mainform">
+
+   
+
+
+    <div class="form">
+        <form action="">
+             
+            <label for="color">choose color</label> <br>
+            <input type="color" value="#ffffff" id="uppercolor"><input type="color" value="#ffffff" id="lowercolor"> <br><br>
+            <label for="inst_name">Institute Name</label> <br>
+            <input type="text" placeholder="enter institute name" id="inst_name"> <br><br>
+            <label for="insta_add">Institute Address</label> <br>
+            <input type="text" placeholder="enter institute address" id="insta_add"> <br><br> <br><br>
+            
+
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder="enter student name"><br><br>
+            <label for="course">Course</label><br>
+            <input type="text" placeholder="enter course name" id="course"><br><br>
+            <label for="phone">Phone</label> <br>
+            <input type="tel" id="phone" placeholder="enter phone no"> <br><br>
+            <label for="address">Address</label> <br>
+            <input type="text" placeholder="enter address" id="address"> <br> <br>
+            <label for="image">Image</label> <br>
+            <input type="file" id="image"  > <br><br>
+            <button type="submit" id="submit">Submit</button> 
+        </form>
+    </div>
+    </div>
+
+     <div class="maincard">
+    <div class="card">
+
+        <div class="main">
+            <h2 id="mainh">DUCAT IT INSTITUTE</h2>
+            <p id="mainp">sec.63,Noida Uttar Pradesh</p>
+            
+        </div>
+
+        <div class="extra">
+
+        <div class="photo">
+            <img class="carxx" src="C:\Users\HP\Downloads\ChatGPT Image Feb 18, 2026, 11_01_34 AM.png" alt="">
+
+        </div>
+        
+        <div class="details">
+
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td id="cardname">Harsh Sharma</td>
+                </tr>
+                <tr>
+                    <th>Course:</th>
+                    <td id="cardcourse">Python</td>
+                </tr>
+                <tr>
+                    <th>Phone:</th>
+                    <td id="cardphone">9876542334</td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td id="cardadd">sec.56 noida uttar pradesh
+                        
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        </div>
+
+    </div>
+
+    <div>
+        <button type="button" id="saveCard">Save Card</button>
+    </div>
+    </div>
+
+    <script src="idcard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
